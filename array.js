@@ -46,9 +46,13 @@ function removeElementFromEndOfArray(array) {
 //and return a COPY of the original array, minus that element
 //hint = use slice and spread
 
+
+
+/*
 function nonDestructivelyRemoveAtIndex(array, index) {
   var slice1 = array.slice(0, index)
   var slice2 = array.slice(index+1, array.length)
   var newArray = [...slice1, ...slice2]
   return newArray
+  */
 }
