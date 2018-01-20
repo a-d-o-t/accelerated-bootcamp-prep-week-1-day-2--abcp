@@ -48,5 +48,5 @@ function removeElementFromEndOfArray(array) {
 
 function nonDestructivelyRemoveAtIndex(array, index) {
   array.slice(0, index-1)
-  array.slice(index+1, array.length)
+  return array.slice(index+1, array.length)
 }
