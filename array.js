@@ -47,5 +47,5 @@ function removeElementFromEndOfArray(array) {
 //hint = use slice and spread
 
 function nonDestructivelyRemoveAtIndex(array, index) {
-  return array.slice(0, array[index-1])
+  return array.slice(0, index-1)
 }
