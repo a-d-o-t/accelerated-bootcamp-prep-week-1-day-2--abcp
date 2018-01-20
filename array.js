@@ -50,4 +50,5 @@ function nonDestructivelyRemoveAtIndex(array, index) {
   var slice1 = array.slice(0, index-1)
   var slice2 = array.slice(index+1, array.length)
   console.log(slice1)
+  console.log(slice2)
 }
